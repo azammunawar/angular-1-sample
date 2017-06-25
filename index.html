@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gentelella Alela! | </title>
+    <base href="/"/>
+    <!-- Bootstrap -->
+    <link href="assets/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="assets/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="assets/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="assets/vendors/animate.css/animate.min.css" rel="stylesheet">
+    <!-- Custom Theme Style -->
+
+    <link href="assets/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="assets/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <link href="assets/css/custom.min.css" rel="stylesheet">
+    <style>
+        #sidebar-menu .panel {
+            background: none;
+        }
+
+        #sidebar-menu .panel-body {
+            padding: 15px 0;
+            border: none;
+        }
+
+        .panel-title {
+            font-size: 14px;
+        }
+
+        .panel-group .panel {
+            color: #fff;
+        }
+        .panel-heading {
+            padding:10px 5px;
+
+        }
+        .progress {
+            height: 10px;
+            margin-bottom: 10px;
+        }
+        #sidebar-menu .panel-title a {
+            display: block;
+        }
+    </style>
+</head>
+<body ng-app="helloworld" class="login nav-md" ng-class="[[menustatus ? 'nav-md' : 'nav-sm']]">
+<ui-view></ui-view>
+<script src="output.js"></script>
+</body>
+</html>

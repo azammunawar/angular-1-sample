@@ -1,0 +1,21 @@
+{
+  "name": "anuglar1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular-ui-router": "0.4.2",
+    "bootstrap": "^3.3.7",
+    "highcharts-ng": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.5",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
